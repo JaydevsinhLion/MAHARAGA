@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from app.routes import api_routes
 
-
 def create_app():
     app = FastAPI(
         title="MAHARAGA API",
